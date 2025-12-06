@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amit Singh Chouhan - E-commerce Operations Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <!-- Floating background orbs -->
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+
+    <!-- Top navigation -->
+    <nav class="navbar">
+      <div class="nav-left">
+        <div class="logo-wrap" aria-label="AC logo">
+          <svg viewBox="0 0 64 64" class="logo-svg">
+            <defs>
+              <linearGradient id="acGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#f97316" />
+                <stop offset="45%" stop-color="#fb923c" />
+                <stop offset="100%" stop-color="#60a5fa" />
+              </linearGradient>
+              <filter id="glow">
+                <feGaussianBlur stdDeviation="3.5" result="coloredBlur" />
+                <feMerge>
+                  <feMergeNode in="coloredBlur" />
+                  <feMergeNode in="SourceGraphic" />
+                </feMerge>
+              </filter>
+            </defs>
+            <circle cx="32" cy="32" r="30" class="logo-circle" />
+            <path d="M20 44L28 20H32L24 44H20Z" fill="url(#acGrad)" />
+            <path d="M42 44H38L34 32.5H37.5L40 39.8H40.1L42.6 32.5H46L42 44Z" fill="url(#acGrad)" />
+          </svg>
+        </div>
+        <div class="nav-title-block">
+          <span class="nav-name">Amit Singh Chouhan</span>
+          <span class="nav-role">E-commerce Operations Manager · Gifts by Rashi</span>
+        </div>
+      </div>
+      <div class="nav-center">
+        <a href="#summary" class="nav-link">Overview</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#tools" class="nav-link">Tools</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+      <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+        <span class="toggle-icon sun">☀️</span>
+        <span class="toggle-icon moon">🌙</span>
+        <span class="toggle-handle"></span>
+      </button>
+    </nav>
+
+    <div class="layout">
+      <!-- Left side profile / quick info -->
+      <aside class="sidebar">
+        <div class="card profile-card">
+          <div class="avatar-ring">
+            <div class="avatar-inner">
+              <span class="avatar-initials">AC</span>
+            </div>
+          </div>
+          <h1 class="profile-name">Amit Singh Chouhan</h1>
+          <p class="profile-role">E-commerce Operations Manager</p>
+          <p class="profile-location">Indore · Gifts by Rashi</p>
+          <p class="profile-summary">
+            I run day-to-day operations for a fast-paced gifting brand — ensuring every
+            personalized order is processed accurately, packed beautifully and dispatched on time.
+          </p>
+          <div class="profile-tags">
+            <span class="chip">4+ years experience</span>
+            <span class="chip">D2C Operations</span>
+            <span class="chip">Customer Experience</span>
+          </div>
+          <div class="profile-cta">
+            <a href="#contact" class="btn primary-btn">Contact Me</a>
+            <a href="#experience" class="btn ghost-btn">Download-style View (Print Friendly)</a>
+          </div>
+        </div>
+
+        <div class="card highlights-card">
+          <h2>Operations Snapshot</h2>
+          <ul class="highlight-list">
+            <li><span>Order Lifecycle</span><span>End-to-end</span></li>
+            <li><span>Personalized Orders</span><span>High Volume</span></li>
+            <li><span>Courier Partners</span><span>Shiprocket, Xpressbees, Delhivery</span></li>
+            <li><span>Peak Season</span><span>Scaling & Rush Handling</span></li>
+          </ul>
+        </div>
+      </aside>
+
+      <!-- Main scroll content -->
+      <main class="main">
+        <!-- Hero / summary -->
+        <section id="summary" class="section reveal" data-section>
+          <div class="card section-card">
+            <div class="section-header">
+              <h2>Professional Overview</h2>
+              <span class="section-pill">Operations · E-commerce · CX</span>
+            </div>
+            <p>
+              I specialize in <strong>end-to-end e-commerce operations</strong> for D2C gifting brands —
+              starting from order capture and personalization checks to packaging QC, dispatch planning
+              and courier coordination. My focus is on building <strong>clean, reliable processes</strong> that
+              reduce errors, speed up fulfilment and create a premium unboxing experience for customers.
+            </p>
+            <p>
+              At Gifts by Rashi (Giftsvilla Pvt. Ltd.), I manage workflows across multiple teams,
+              handle bulk CSV and inventory updates, coordinate with logistics partners and resolve
+              customer issues quickly to maintain a consistently high <strong>customer experience score</strong>.
+            </p>
+            <div class="overview-grid">
+              <div>
+                <p class="metric-label">Total Experience</p>
+                <p class="metric-value">4+ years</p>
+              </div>
+              <div>
+                <p class="metric-label">Core Role</p>
+                <p class="metric-value">Operations Manager</p>
+              </div>
+              <div>
+                <p class="metric-label">Location</p>
+                <p class="metric-value">Indore, India</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills" class="section reveal" data-section>
+          <div class="card section-card">
+            <div class="section-header">
+              <h2>Skills Matrix</h2>
+              <span class="section-pill">Operational · Technical · Leadership</span>
+            </div>
+
+            <div class="skills-layout">
+              <div class="skills-column">
+                <h3>Operations & E-commerce</h3>
+                <div class="skill-chips">
+                  <span>Order Processing & Management</span>
+                  <span>E-commerce Operations Management</span>
+                  <span>Operations Management</span>
+                  <span>Inventory &amp; Bulk Data Handling</span>
+                  <span>Inventory Management</span>
+                  <span>CSV Data Management</span>
+                  <span>E-Commerce</span>
+                  <span>Product Personalization</span>
+                  <span>Packaging Quality Control</span>
+                  <span>Courier Coordination</span>
+                  <span>Customer Service</span>
+                  <span>Customer Experience</span>
+                  <span>Skilled Multi-tasker</span>
+                </div>
+              </div>
+
+              <div class="skills-column">
+                <h3>People & Growth</h3>
+                <div class="skill-chips">
+                  <span>Team Management</span>
+                  <span>Team Leadership</span>
+                  <span>Business Development</span>
+                  <span>Project Management</span>
+                  <span>Analytical Skills</span>
+                  <span>Google Ads</span>
+                  <span>SEO Optimization</span>
+                  <span>Digital Advertising</span>
+                  <span>AI Tools Integration</span>
+                </div>
+
+                <div class="skills-subgroup">
+                  <h4>Soft Skills</h4>
+                  <div class="skill-chips small">
+                    <span>Process Ownership</span>
+                    <span>Detail-oriented</span>
+                    <span>Problem Solving</span>
+                    <span>Cross-team Collaboration</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skills-column">
+                <h3>Technical Stack</h3>
+                <div class="skill-chips">
+                  <span>Google Workspace</span>
+                  <span>Microsoft Excel</span>
+                  <span>Microsoft Word</span>
+                  <span>Microsoft Office</span>
+                  <span>Shopify</span>
+                  <span>WordPress / WooCommerce</span>
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                  <span>C++</span>
+                  <span>Artificial Intelligence (AI)</span>
+                  <span>Web Development</span>
+                </div>
+
+                <div class="skills-subgroup">
+                  <h4>Tools I use daily</h4>
+                  <div class="skill-chips small">
+                    <span>Google Sheets</span>
+                    <span>Gmail &amp; Calendar</span>
+                    <span>Operational Dashboards</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Scrolling skill belt -->
+            <div class="skill-belt">
+              <div class="belt-track">
+                <span>Customer Service</span>
+                <span>Customer Experience</span>
+                <span>Team Management</span>
+                <span>Team Leadership</span>
+                <span>E-commerce Operations</span>
+                <span>Inventory &amp; Bulk Data Handling</span>
+                <span>Google Ads</span>
+                <span>Google Workspace</span>
+                <span>Project Management</span>
+                <span>AI Tools Integration</span>
+                <span>HTML · CSS · JavaScript</span>
+                <span>Web Development</span>
+              </div>
+              <div class="belt-track belt-dup">
+                <span>Customer Service</span>
+                <span>Customer Experience</span>
+                <span>Team Management</span>
+                <span>Team Leadership</span>
+                <span>E-commerce Operations</span>
+                <span>Inventory &amp; Bulk Data Handling</span>
+                <span>Google Ads</span>
+                <span>Google Workspace</span>
+                <span>Project Management</span>
+                <span>AI Tools Integration</span>
+                <span>HTML · CSS · JavaScript</span>
+                <span>Web Development</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Experience -->
+        <section id="experience" class="section reveal" data-section>
+          <div class="card section-card">
+            <div class="section-header">
+              <h2>Work Experience</h2>
+              <span class="section-pill">Giftsvilla Pvt. Ltd. · Gifts by Rashi</span>
+            </div>
+
+            <div class="timeline">
+              <article class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-body">
+                  <header class="timeline-header">
+                    <h3>Operations Manager – Gifts by Rashi</h3>
+                    <span class="timeline-meta">Giftsvilla Pvt. Ltd. · 4+ years · Indore</span>
+                  </header>
+                  <ul class="timeline-points">
+                    <li>Owned end-to-end order lifecycle from website order capture to final courier handover.</li>
+                    <li>Managed personalization checks for name, date, photo and custom message based gifting SKUs.</li>
+                    <li>Standardized packaging quality to ensure a premium unboxing experience for customers.</li>
+                    <li>Coordinated with Shiprocket, Xpressbees, Delhivery and other partners to reduce delays and RTOs.</li>
+                    <li>Handled large-scale CSV uploads, inventory updates and price changes across channels.</li>
+                    <li>Worked closely with customer support to resolve escalations and maintain strong customer satisfaction.</li>
+                  </ul>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <!-- Education -->
+        <section id="education" class="section reveal" data-section>
+          <div class="card section-card">
+            <div class="section-header">
+              <h2>Education</h2>
+              <span class="section-pill">Softvision College & Research Institute</span>
+            </div>
+            <p><strong>BCA (Bachelor of Computer Applications)</strong></p>
+            <p class="muted">
+              Foundation in programming, web development and computer fundamentals including C++, HTML, CSS,
+              JavaScript and basics of Artificial Intelligence.
+            </p>
+          </div>
+        </section>
+
+        <!-- Tools -->
+        <section id="tools" class="section reveal" data-section>
+          <div class="card section-card">
+            <div class="section-header">
+              <h2>Tools & Platforms</h2>
+              <span class="section-pill">Daily Operations Toolkit</span>
+            </div>
+
+            <div class="tools-grid">
+              <div class="tool-card">
+                <h3>E-commerce Platforms</h3>
+                <ul>
+                  <li>Shopify</li>
+                  <li>WordPress / WooCommerce</li>
+                </ul>
+              </div>
+              <div class="tool-card">
+                <h3>Logistics Platforms</h3>
+                <ul>
+                  <li>Shiprocket</li>
+                  <li>Xpressbees</li>
+                  <li>Delhivery</li>
+                </ul>
+              </div>
+              <div class="tool-card">
+                <h3>Productivity & Design</h3>
+                <ul>
+                  <li>Google Workspace (Docs, Sheets, Gmail, Calendar)</li>
+                  <li>Microsoft Office (Word, Excel, PowerPoint)</li>
+                  <li>Canva, Adobe Photoshop</li>
+                </ul>
+              </div>
+              <div class="tool-card">
+                <h3>Specialized Tools</h3>
+                <ul>
+                  <li>Laser tools for engraving & personalization</li>
+                  <li>AI tools for content and process support</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="section reveal" data-section>
+          <div class="card section-card contact-card">
+            <div class="section-header">
+              <h2>Contact</h2>
+              <span class="section-pill">Let&apos;s collaborate</span>
+            </div>
+            <p>
+              Open to roles in <strong>E-commerce Operations, Fulfilment Management, CX-led Operations</strong>
+              and D2C growth teams.
+            </p>
+            <div class="contact-grid">
+              <div>
+                <p>📞 <strong>Phone</strong></p>
+                <p><a href="tel:+919589178203">+91 95891 78203</a></p>
+              </div>
+              <div>
+                <p>📧 <strong>Email</strong></p>
+                <p><a href="mailto:amitchouhan9522@gmail.com">amitchouhan9522@gmail.com</a></p>
+              </div>
+              <div>
+                <p>🔗 <strong>LinkedIn</strong></p>
+                <p>
+                  <a href="https://www.linkedin.com/in/amit-chouhan-a4835b313" target="_blank" rel="noreferrer">
+                    linkedin.com/in/amit-chouhan-a4835b313
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <footer class="footer">
+          <p>© <span id="year"></span> Amit Singh Chouhan · E-commerce Operations Manager</p>
+        </footer>
+      </main>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
