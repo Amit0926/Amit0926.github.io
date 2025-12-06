@@ -1,0 +1,16 @@
+Copyright (c) 2025 Amit Singh Chouhan
+
+All Rights Reserved.
+
+This portfolio website (including all HTML, CSS, JavaScript, assets, layout, and visual design)
+is the exclusive property of Amit Singh Chouhan.
+
+You are granted permission to view this website in a web browser and to host it
+for the sole purpose of representing the professional profile of Amit Singh Chouhan.
+
+You may not:
+- Sell, sublicense, or redistribute this code or design as a template.
+- Claim ownership or authorship of this design or content.
+- Use the design, code, or assets for commercial template libraries or resale.
+
+For collaborations, design changes, or reuse permissions, please contact the owner directly.
