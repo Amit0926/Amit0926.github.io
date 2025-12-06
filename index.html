@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amit Chouhan | Operations & Tech Portfolio</title>
+  <meta name="description" content="Portfolio of Amit Chouhan - E-commerce Operations Manager & Tech Specialist (Web, App & AI Automation). 4+ years managing high-volume operations at Gifts by Rashi." />
+  <meta name="author" content="Amit Chouhan" />
+  <meta property="og:title" content="Amit Chouhan | Operations Manager & Tech Specialist" />
+  <meta property="og:description" content="E-commerce Operations, Web & App Development, AI Automation, and Customer Experience." />
+  <meta property="og:type" content="website" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <!-- 3D model viewer support -->
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+</head>
+<body>
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="preloader-logo">AC</div>
+    <div class="preloader-spinner"></div>
+  </div>
+
+  <!-- Custom cursor -->
+  <div class="custom-cursor"></div>
+
+  <!-- Background music -->
+  <audio id="bg-music" loop>
+    <!-- Replace with your own audio file in assets/music.mp3 -->
+    <!-- <source src="assets/music.mp3" type="audio/mpeg" /> -->
+  </audio>
+
+  <!-- Floating contact button -->
+  <a href="#contact" class="floating-contact" aria-label="Contact Amit">
+    ✉
+  </a>
+
+  <!-- Back to top button -->
+  <button id="backToTop" aria-label="Back to top">↑</button>
+
+  <!-- Sticky Navbar -->
+  <header class="navbar">
+    <div class="container nav-inner">
+      <div class="logo">
+        <div class="logo-mark">AC</div>
+        <div class="logo-text">
+          <span class="logo-name">Amit Chouhan</span>
+          <span class="logo-role">Operations & Tech Specialist</span>
+        </div>
+      </div>
+
+      <nav class="nav-links">
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#clients">Clients</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="themeToggle" class="icon-btn" aria-label="Toggle theme">
+          🌙
+        </button>
+        <button id="musicToggle" class="icon-btn" aria-label="Toggle background music">
+          🎵
+        </button>
+        <button id="openSideMenu" class="icon-btn mobile-only" aria-label="Open menu">
+          ☰
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Side menu -->
+  <aside id="sideMenu">
+    <button id="closeSideMenu" class="icon-btn close-btn" aria-label="Close menu">✕</button>
+    <nav>
+      <a href="#hero">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#clients">Clients</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </aside>
+
+  <!-- Hero -->
+  <main>
+    <section id="hero" class="hero">
+      <div class="hero-overlay parallax-layer"></div>
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <p class="hero-tag">Operations Manager | Web & App | AI Automation</p>
+          <h1 class="hero-title">
+            Hi, I'm <span class="accent">Amit Chouhan</span><br />
+            I scale <span class="accent">E-commerce operations</span> with technology.
+          </h1>
+          <p class="hero-subtitle">
+            E-commerce Operations & Tech Specialist with 4+ years at Giftsvilla Pvt. Ltd. (Gifts by Rashi), managing
+            high-volume order-to-delivery workflows, automation, and customer experience.
+          </p>
+          <div class="hero-actions">
+            <a href="https://www.linkedin.com/in/amit-chouhan-a4835b313" target="_blank" rel="noopener noreferrer" class="btn primary">
+              View LinkedIn
+            </a>
+            <a href="#portfolio" class="btn ghost">View My Work</a>
+          </div>
+          <div class="hero-meta">
+            <div>
+              <span class="meta-label">Experience</span>
+              <span class="meta-value">4+ Years</span>
+            </div>
+            <div>
+              <span class="meta-label">Domain</span>
+              <span class="meta-value">E-commerce & Tech</span>
+            </div>
+            <div>
+              <span class="meta-label">Location</span>
+              <span class="meta-value">India</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-media">
+          <!-- Video intro -->
+          <div class="video-card">
+            <div class="video-label">Video Intro</div>
+            <div class="video-placeholder">
+              <!-- Replace src with your own intro video -->
+              <video muted autoplay loop playsinline poster="" class="hero-video">
+                <!-- <source src="assets/intro.mp4" type="video/mp4" /> -->
+              </video>
+              <div class="video-overlay-text">
+                Add your intro video here
+              </div>
+            </div>
+          </div>
+
+          <!-- Simple 3D model preview -->
+          <div class="model-card">
+            <div class="video-label">3D Model Support</div>
+            <model-viewer
+              src=""
+              alt="3D model placeholder"
+              auto-rotate
+              camera-controls
+              class="model-viewer"
+            >
+            </model-viewer>
+            <p class="model-note">Plug any .glb model here to showcase products in 3D.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container section-inner">
+        <div class="section-header">
+          <h2>About Me</h2>
+          <p>Blending operations, technology, and customer experience.</p>
+        </div>
+        <div class="about-grid">
+          <div>
+            <p>
+              I am an <strong>E-commerce Operations and Tech Specialist</strong> with 4+ years of experience managing
+              high-volume workflows at <strong>Giftsvilla Pvt. Ltd. (Gifts by Rashi)</strong>.
+            </p>
+            <p>
+              I specialize in streamlining the complete order-to-delivery process—order processing, personalization
+              coordination, packaging quality checks, dispatch management, courier coordination, and customer support.
+            </p>
+            <p>
+              With a strong foundation in computer applications, web development, app development fundamentals, AI
+              automation, system handling, and data management, I focus on <strong>speed, accuracy, and operational efficiency</strong>.
+            </p>
+          </div>
+          <div>
+            <ul class="about-list">
+              <li>End-to-end e-commerce operations</li>
+              <li>AI automation for repetitive tasks</li>
+              <li>Order processing, dispatch, and tracking</li>
+              <li>Customer support & issue resolution</li>
+              <li>Inventory & bulk data handling</li>
+              <li>Marketing coordination & Google Ads basics</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section alt">
+      <div class="container section-inner">
+        <div class="section-header">
+          <h2>Skills & Stack</h2>
+          <p>Operations + Technology + Customer Experience.</p>
+        </div>
+
+        <div class="skills-wrap">
+          <div class="skill-group">
+            <h3>Operations & Business</h3>
+            <div class="chips">
+              <span class="chip">E-commerce Operations Management</span>
+              <span class="chip">Operations Management</span>
+              <span class="chip">Inventory & Bulk Data Handling</span>
+              <span class="chip">Project Management</span>
+              <span class="chip">Business Development</span>
+              <span class="chip">Team Management</span>
+              <span class="chip">Team Leadership</span>
+              <span class="chip">Customer Experience</span>
+              <span class="chip">Customer Service</span>
+              <span class="chip">Skilled Multi-tasker</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <h3>Tech & Automation</h3>
+            <div class="chips">
+              <span class="chip">HTML</span>
+              <span class="chip">CSS</span>
+              <span class="chip">JavaScript</span>
+              <span class="chip">C++</span>
+              <span class="chip">Web Development</span>
+              <span class="chip">AI Automation</span>
+              <span class="chip">Artificial Intelligence (AI)</span>
+              <span class="chip">Google Workspace</span>
+              <span class="chip">Microsoft Excel</span>
+              <span class="chip">Microsoft Word</span>
+              <span class="chip">Microsoft Office</span>
+              <span class="chip">Google Ads (Basic)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section">
+      <div class="container section-inner">
+        <div class="section-header">
+          <h2>Experience</h2>
+          <p>Hands-on ownership of operations and technology.</p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Operations Manager</h3>
+              <p class="timeline-company">Gifts by Rashi (Giftsvilla Pvt. Ltd.)</p>
+              <p class="timeline-time">4+ Years</p>
+              <ul>
+                <li>Managed end-to-end ecommerce operations for high-volume personalized orders.</li>
+                <li>Coordinated with design, personalization, packaging, and dispatch teams to ensure timely delivery.</li>
+                <li>Implemented process improvements to reduce errors and increase dispatch speed.</li>
+                <li>Handled courier escalation, tracking, and customer issue resolution.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="section alt">
+      <div class="container section-inner">
+        <div class="section-header">
+          <h2>Portfolio</h2>
+          <p>Selected operations, automation, and tech projects.</p>
+        </div>
+
+        <div class="portfolio-controls">
+          <input type="text" id="portfolioSearch" placeholder="Search projects..." aria-label="Search projects" />
+
+          <div class="portfolio-categories">
+            <button class="cat-btn active" data-category="all">All</button>
+            <button class="cat-btn" data-category="operations">Operations</button>
+            <button class="cat-btn" data-category="web">Web</button>
+            <button class="cat-btn" data-category="automation">AI Automation</button>
+            <button class="cat-btn" data-category="marketing">Marketing</button>
+          </div>
+        </div>
+
+        <div class="portfolio-grid">
+          <article class="project-card" data-category="operations" data-title="High-Volume Order Operations Dashboard">
+            <div class="project-image slider" data-slider>
+              <div class="slides">
+                <div class="slide active">Ops View 1</div>
+                <div class="slide">Ops View 2</div>
+                <div class="slide">Ops View 3</div>
+                <div class="slide">AI Automation</div>
+                <div class="slide">Web UI</div>
+                <div class="slide">Ads Strategy</div>
+                <div class="slide">Video Intro</div>
+                <div class="slide">3D Model Support</div>
+                <div class="slide">Video or Text of Your Choice</div>
+              </div>
+              <button class="slider-btn prev" aria-label="Previous slide">‹</button>
+              <button class="slider-btn next" aria-label="Next slide">›</button>
+            </div>
+            <div class="project-content">
+              <h3>High-Volume Order Operations Dashboard</h3>
+              <p>Centralized view of order status, dispatch, and courier tracking to manage daily load efficiently.</p>
+              <button class="btn tiny project-details" data-project="ops-dashboard">View Details</button>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="web" data-title="Portfolio Website for Gifts by Rashi">
+            <div class="project-image slider" data-slider>
+        <div class="slides">
+            <div class="slide active">Web UI Design</div>
+            <div class="slide">Landing Page Optimization</div>
+            <div class="slide">Responsive Layouts</div>
+        </div>
+        <button class="slider-btn prev">‹</button>
+        <button class="slider-btn next">›</button>
+    </div>
+            <div class="project-content">
+              <h3>Marketing Landing Pages & Web UI</h3>
+              <p>Assisted in planning and testing high-conversion product and campaign pages.</p>
+              <button class="btn tiny project-details" data-project="web-ui">View Details</button>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="automation" data-title="AI Automation for Order Queries">
+            <div class="project-image slider" data-slider>
+        <div class="slides">
+            <div class="slide active">AI Automation</div>
+            <div class="slide">Order Query Assistant</div>
+            <div class="slide">Workflow Optimization</div>
+        </div>
+        <button class="slider-btn prev">‹</button>
+        <button class="slider-btn next">›</button>
+    </div>
+            <div class="project-content">
+              <h3>AI Automation for Order Queries</h3>
+              <p>Set up AI-based chat & workflows to quickly answer order status and basic support questions.</p>
+              <button class="btn tiny project-details" data-project="ai-bot">View Details</button>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="marketing" data-title="Google Ads Coordination">
+            <div class="project-image slider" data-slider>
+        <div class="slides">
+            <div class="slide active">Ad Strategy</div>
+            <div class="slide">Google Ads Management</div>
+            <div class="slide">Campaign Optimization</div>
+        </div>
+        <button class="slider-btn prev">‹</button>
+        <button class="slider-btn next">›</button>
+    </div>
+            <div class="project-content">
+              <h3>Google Ads & Campaign Coordination</h3>
+              <p>Coordinated with marketing team on ad creatives, landing experience, and post-order journey.</p>
+              <button class="btn tiny project-details" data-project="ads">View Details</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Detail Modals -->
+    <div id="modalOverlay" class="modal-overlay" aria-hidden="true">
+      <div class="modal">
+        <button class="icon-btn modal-close" id="modalClose" aria-label="Close details">✕</button>
+        <div class="modal-body" id="modalBody">
+          <!-- JS injects project details here -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Client Logos Carousel -->
+    <section id="clients" class="section">
+      <div class="container section-inner">
+        <div class="section-header">
+          <h2>Client & Brand Experience</h2>
+          <p>Brands and categories I've worked with through Gifts by Rashi.</p>
+        </div>
+
+        <div class="logo-carousel">
+          <div class="logo-track">
+            <div class="logo-item">Gifts by Rashi</div>
+            <div class="logo-item">Personalised Gifts</div>
+            <div class="logo-item">E-commerce Brands</div>
+            <div class="logo-item">Logistics Partners</div>
+            <div class="logo-item">Courier Partners</div>
+            <!-- duplicate for seamless loop -->
+            <div class="logo-item">Gifts by Rashi</div>
+            <div class="logo-item">Personalised Gifts</div>
+            <div class="logo-item">E-commerce Brands</div>
+            <div class="logo-item">Logistics Partners</div>
+            <div class="logo-item">Courier Partners</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Newsletter -->
+    <section id="contact" class="section alt">
+      <div class="container section-inner contact-grid">
+        <div>
+          <div class="section-header left">
+            <h2>Contact</h2>
+            <p>Let’s talk about operations, automation, or your next project.</p>
+          </div>
+
+          <form class="contact-form">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input id="name" type="text" placeholder="Your name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input id="email" type="email" placeholder="you@example.com" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Project / Message</label>
+              <textarea id="message" rows="4" placeholder="Tell me a bit about what you need..." required></textarea>
+            </div>
+            <button type="submit" class="btn primary full">Send Message (Demo)</button>
+            <p class="form-note">This is a demo form. Connect it to your email or backend to make it live.</p>
+          </form>
+        </div>
+
+        <div>
+          <div class="newsletter-card">
+            <h3>Newsletter Signup</h3>
+            <p>Get process, automation, and ecommerce workflow tips.</p>
+            <form class="newsletter-form">
+              <div class="form-group inline">
+                <input type="email" placeholder="Enter your email" required />
+                <button type="submit" class="btn primary tiny">Join</button>
+              </div>
+              <p class="form-note">No spam. Only practical, operations-focused content.</p>
+            </form>
+          </div>
+
+          <div class="contact-meta">
+            <h3>Connect</h3>
+            <ul>
+              <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/amit-chouhan-a4835b313" target="_blank" rel="noopener">/amit-chouhan-a4835b313</a></li>
+              <li><strong>Role:</strong> Operations Manager, Gifts by Rashi</li>
+              <li><strong>Focus:</strong> E-commerce operations, automation & CX</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> AC – Amit Chouhan. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#hero">Back to top</a>
+        <a href="https://www.linkedin.com/in/amit-chouhan-a4835b313" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- AI Chatbot / Live Chat Widget -->
+  <div id="chatbot" class="chatbot">
+    <button id="chatbotToggle" class="chatbot-toggle" aria-label="Open chat">
+      💬
+    </button>
+    <div class="chatbot-window">
+      <div class="chatbot-header">
+        <div>
+          <div class="chatbot-title">AI Assistant</div>
+          <div class="chatbot-subtitle">Ask about Amit & his work</div>
+        </div>
+        <button id="chatbotClose" class="icon-btn" aria-label="Close chat">✕</button>
+      </div>
+      <div class="chatbot-messages" id="chatbotMessages">
+        <div class="msg bot">
+          Hi! I'm Amit's AI assistant. Ask me about his skills, experience, or how he can help your ecommerce operations.
+        </div>
+      </div>
+      <form id="chatbotForm" class="chatbot-input-wrap">
+        <input id="chatbotInput" type="text" placeholder="Type your question..." autocomplete="off" />
+        <button type="submit" class="btn tiny">Send</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
