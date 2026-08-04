@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amit Chouhan | Operations & Tech Portfolio</title>
+  <meta name="description" content="Portfolio of Amit Chouhan - E-commerce Operations Manager at Giftsvilla Private Limited (giftsbyrashi.com). 4+ years, 5,00,000+ orders managed, creator of luxehampers.com." />
+  <meta name="author" content="Amit Chouhan" />
+  <meta property="og:title" content="Amit Chouhan | Operations Manager & Tech Specialist" />
+  <meta property="og:description" content="E-commerce Operations, Vendor Negotiation, Web Development & AI Automation." />
+  <meta property="og:type" content="website" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="preloader-mark">AC</div>
+    <div class="preloader-bar"><span id="preloaderFill"></span></div>
+  </div>
+
+  <!-- Custom cursor -->
+  <div class="custom-cursor"></div>
+  <div class="custom-cursor-dot"></div>
+
+  <!-- Floating contact button -->
+  <a href="#contact" class="floating-contact" aria-label="Contact Amit">✉</a>
+
+  <!-- Back to top button -->
+  <button id="backToTop" aria-label="Back to top">↑</button>
+
+  <!-- Sticky Navbar -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#hero" class="logo">
+        <div class="logo-mark">AC</div>
+        <div class="logo-text">
+          <span class="logo-name">Amit Chouhan</span>
+          <span class="logo-role">Operations & Tech Specialist</span>
+        </div>
+      </a>
+
+      <nav class="nav-links">
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#clients">Clients</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="themeToggle" class="icon-btn" aria-label="Toggle theme">🌙</button>
+        <button id="openSideMenu" class="icon-btn mobile-only" aria-label="Open menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Side menu -->
+  <aside id="sideMenu">
+    <button id="closeSideMenu" class="icon-btn close-btn" aria-label="Close menu">✕</button>
+    <nav>
+      <a href="#hero">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#clients">Clients</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </aside>
+  <div id="sideMenuOverlay"></div>
+
+  <main>
+    <!-- Hero -->
+    <section id="hero" class="hero">
+      <div class="hero-bg parallax-layer" aria-hidden="true">
+        <div class="hero-grid"></div>
+        <div class="hero-glow glow-1"></div>
+        <div class="hero-glow glow-2"></div>
+      </div>
+
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <p class="hero-tag reveal-up">Operations Manager · Giftsvilla Private Limited (giftsbyrashi.com)</p>
+          <h1 class="hero-title reveal-up" style="--d:1">
+            Hi, I'm <span class="accent">Amit Chouhan</span><br />
+            I scale <span class="accent-2">e-commerce operations</span> with technology.
+          </h1>
+          <p class="hero-subtitle reveal-up" style="--d:2">
+            4+ years managing high-volume order-to-delivery workflows at
+            <strong>Giftsvilla Private Limited</strong>, the company behind
+            <strong>giftsbyrashi.com</strong>. Built and launched
+            <strong>luxehampers.com</strong> from the ground up. 5,00,000+ orders
+            processed, teams led, vendors negotiated, and workflows automated
+            along the way.
+          </p>
+          <div class="hero-actions reveal-up" style="--d:3">
+            <a href="https://www.linkedin.com/in/amit-chouhan-a4835b313" target="_blank" rel="noopener noreferrer" class="btn primary">
+              View LinkedIn
+            </a>
+            <a href="#portfolio" class="btn ghost">View My Work</a>
+          </div>
+        </div>
+
+        <div class="hero-console reveal-up" style="--d:4" aria-hidden="true">
+          <div class="console-header">
+            <span class="console-dot"></span>
+            <span class="console-live">LIVE OPS SNAPSHOT</span>
+          </div>
+          <div class="console-grid">
+            <div class="console-stat">
+              <span class="stat-value" data-count="500000" data-suffix="+">0</span>
+              <span class="stat-label">Orders processed</span>
+            </div>
+            <div class="console-stat">
+              <span class="stat-value" data-count="200" data-suffix="+">0</span>
+              <span class="stat-label">Orders / day</span>
+            </div>
+            <div class="console-stat">
+              <span class="stat-value" data-count="15" data-prefix="10–">0</span>
+              <span class="stat-label">Team members led</span>
+            </div>
+            <div class="console-stat">
+              <span class="stat-value" data-count="4" data-suffix="+">0</span>
+              <span class="stat-label">Years in operations</span>
+            </div>
+          </div>
+          <div class="console-footer">
+            <span class="console-tag">Dispatch TAT</span>
+            <span class="console-improve">▲ Improved</span>
+          </div>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-cue" aria-label="Scroll to About">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container section-inner">
+        <div class="section-header reveal-up">
+          <span class="eyebrow">About</span>
+          <h2>Operations, technology, and customer experience — one workflow.</h2>
+        </div>
+        <div class="about-grid">
+          <div class="reveal-up" style="--d:1">
+            <p>
+              I'm an <strong>E-commerce Operations Manager</strong> with 4+ years running
+              high-volume operations at <strong>Giftsvilla Private Limited</strong>,
+              the company behind the personalized-gifting brand
+              <strong>giftsbyrashi.com</strong>.
+            </p>
+            <p>
+              I own the complete order-to-delivery process: order processing,
+              personalization coordination, packaging quality checks, dispatch,
+              courier coordination, vendor sourcing, and customer support — for
+              a team of <strong>10–15 people</strong> processing
+              <strong>200+ orders a day</strong>.
+            </p>
+            <p>
+              Alongside operations, I conceptualized and built
+              <strong>luxehampers.com</strong> from scratch, and use web
+              development and AI automation to remove repetitive work from the
+              day-to-day — so the team spends time on orders, not on manual
+              admin.
+            </p>
+          </div>
+          <div class="reveal-up" style="--d:2">
+            <ul class="about-list">
+              <li><span>5,00,000+</span> orders processed end-to-end</li>
+              <li><span>10–15</span> member team led directly</li>
+              <li><span>200+</span> orders handled per day</li>
+              <li><span>Built</span> luxehampers.com from the ground up</li>
+              <li><span>Negotiated</span> vendor & logistics pricing</li>
+              <li><span>Automated</span> repetitive tasks with AI tools</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section alt">
+      <div class="container section-inner">
+        <div class="section-header reveal-up">
+          <span class="eyebrow">Skills & Stack</span>
+          <h2>Operations + technology + customer experience.</h2>
+        </div>
+
+        <div class="skills-wrap">
+          <div class="skill-group reveal-up" style="--d:1">
+            <h3>Operations & Business</h3>
+            <div class="chips">
+              <span class="chip">E-commerce Operations Management</span>
+              <span class="chip">Team Leadership (10–15)</span>
+              <span class="chip">Vendor & Logistics Negotiation</span>
+              <span class="chip">MIS Reporting</span>
+              <span class="chip">Attendance Tracking (Jibble)</span>
+              <span class="chip">Inventory & Bulk Data Handling</span>
+              <span class="chip">Order Management Systems</span>
+              <span class="chip">Customer Experience</span>
+              <span class="chip">Multi-tasking Under Load</span>
+            </div>
+          </div>
+
+          <div class="skill-group reveal-up" style="--d:2">
+            <h3>Tech & Automation</h3>
+            <div class="chips">
+              <span class="chip">HTML</span>
+              <span class="chip">CSS</span>
+              <span class="chip">JavaScript</span>
+              <span class="chip">Shopify</span>
+              <span class="chip">WordPress</span>
+              <span class="chip">AI Automation</span>
+              <span class="chip">Google Workspace</span>
+              <span class="chip">Microsoft Excel</span>
+              <span class="chip">Google Ads (Basic)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section">
+      <div class="container section-inner">
+        <div class="section-header reveal-up">
+          <span class="eyebrow">Experience</span>
+          <h2>Hands-on ownership of operations and technology.</h2>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-line" aria-hidden="true"><span id="timelineFill"></span></div>
+
+          <div class="timeline-item reveal-up">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>E-commerce Operations Manager</h3>
+              <p class="timeline-company">Giftsvilla Private Limited — giftsbyrashi.com</p>
+              <p class="timeline-time">2021 – Present · 4+ Years</p>
+              <ul>
+                <li>Managed end-to-end e-commerce operations, processing 200+ orders/day and 5,00,000+ orders overall.</li>
+                <li>Led and guided a team of 10–15 members across order processing, personalization, and dispatch.</li>
+                <li>Negotiated with vendors on sourcing and logistics pricing, securing better rates.</li>
+                <li>Tracked team attendance using Jibble and monitored productivity to keep operations on schedule.</li>
+                <li>Conceptualized and built <strong>luxehampers.com</strong>, a gifting brand website, from the ground up.</li>
+                <li>Handled courier escalations, tracking, and customer issue resolution across Blue Dart, Xpressbees, and Delhivery.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="section alt">
+      <div class="container section-inner">
+        <div class="section-header reveal-up">
+          <span class="eyebrow">Portfolio</span>
+          <h2>Selected operations, automation, and web projects.</h2>
+        </div>
+
+        <div class="portfolio-controls reveal-up">
+          <input type="text" id="portfolioSearch" placeholder="Search projects..." aria-label="Search projects" />
+          <div class="portfolio-categories">
+            <button class="cat-btn active" data-category="all">All</button>
+            <button class="cat-btn" data-category="operations">Operations</button>
+            <button class="cat-btn" data-category="web">Web</button>
+            <button class="cat-btn" data-category="automation">AI Automation</button>
+            <button class="cat-btn" data-category="vendor">Vendor & Logistics</button>
+          </div>
+        </div>
+
+        <div class="portfolio-grid">
+
+          <!-- Project 1: Ops dashboard -->
+          <article class="project-card reveal-up" data-category="operations" data-title="High-Volume Order Operations">
+            <div class="project-visual visual-ops">
+              <div class="ops-pipeline">
+                <span class="ops-node">Order</span>
+                <span class="ops-node">Personalize</span>
+                <span class="ops-node">Pack</span>
+                <span class="ops-node">Dispatch</span>
+              </div>
+              <div class="ops-bars">
+                <span style="--h:40%"></span><span style="--h:65%"></span><span style="--h:50%"></span>
+                <span style="--h:80%"></span><span style="--h:60%"></span><span style="--h:95%"></span>
+                <span style="--h:70%"></span>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>High-Volume Order Operations</h3>
+              <p>Running the full order-to-delivery pipeline at giftsbyrashi.com — 200+ orders/day, 5,00,000+ processed to date.</p>
+              <button class="btn tiny project-details" data-project="ops-dashboard">View Details</button>
+            </div>
+          </article>
+
+          <!-- Project 2: LuxeHampers.com -->
+          <article class="project-card reveal-up" data-category="web" data-title="luxehampers.com">
+            <div class="project-visual visual-web">
+              <div class="browser-frame">
+                <div class="browser-bar">
+                  <span class="browser-dot"></span><span class="browser-dot"></span><span class="browser-dot"></span>
+                  <span class="browser-url">luxehampers.com</span>
+                </div>
+                <div class="browser-body">
+                  <span class="block block-1"></span>
+                  <span class="block block-2"></span>
+                  <span class="block block-3"></span>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>luxehampers.com</h3>
+              <p>Conceptualized and built this gifting brand's website from the ground up — structure, content, and launch.</p>
+              <button class="btn tiny project-details" data-project="luxehampers">View Details</button>
+            </div>
+          </article>
+
+          <!-- Project 3: AI automation -->
+          <article class="project-card reveal-up" data-category="automation" data-title="AI Automation for Order Queries">
+            <div class="project-visual visual-chat">
+              <div class="chat-bubble bot">Where's order #4821?</div>
+              <div class="chat-bubble user">Out for delivery — arriving today.</div>
+              <div class="chat-bubble bot">Any delay expected?</div>
+            </div>
+            <div class="project-content">
+              <h3>AI Automation for Order Queries</h3>
+              <p>Set up AI-assisted workflows to resolve routine order-status questions instantly, freeing the team for exceptions.</p>
+              <button class="btn tiny project-details" data-project="ai-bot">View Details</button>
+            </div>
+          </article>
+
+          <!-- Project 4: Vendor negotiation -->
+          <article class="project-card reveal-up" data-category="vendor" data-title="Vendor & Logistics Negotiation">
+            <div class="project-visual visual-vendor">
+              <div class="vendor-row">
+                <span class="vendor-chip">Sourcing</span>
+                <span class="vendor-link"></span>
+                <span class="vendor-chip">Better Pricing</span>
+              </div>
+              <div class="vendor-row">
+                <span class="vendor-chip">Blue Dart</span>
+                <span class="vendor-chip">Xpressbees</span>
+                <span class="vendor-chip">Delhivery</span>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Vendor & Logistics Negotiation</h3>
+              <p>Negotiated directly with sourcing and courier vendors to secure better pricing and close reliable deals.</p>
+              <button class="btn tiny project-details" data-project="vendor">View Details</button>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Detail Modal -->
+    <div id="modalOverlay" class="modal-overlay" aria-hidden="true">
+      <div class="modal">
+        <button class="icon-btn modal-close" id="modalClose" aria-label="Close details">✕</button>
+        <div class="modal-body" id="modalBody"></div>
+      </div>
+    </div>
+
+    <!-- Client / Brand strip -->
+    <section id="clients" class="section">
+      <div class="container section-inner">
+        <div class="section-header reveal-up">
+          <span class="eyebrow">Brands & Partners</span>
+          <h2>Companies and partners I've worked with.</h2>
+        </div>
+
+        <div class="logo-carousel reveal-up">
+          <div class="logo-track">
+            <div class="logo-item">Giftsvilla Private Limited</div>
+            <div class="logo-item">giftsbyrashi.com</div>
+            <div class="logo-item">luxehampers.com</div>
+            <div class="logo-item">Blue Dart</div>
+            <div class="logo-item">Xpressbees</div>
+            <div class="logo-item">Delhivery</div>
+            <!-- duplicate for seamless loop -->
+            <div class="logo-item">Giftsvilla Private Limited</div>
+            <div class="logo-item">giftsbyrashi.com</div>
+            <div class="logo-item">luxehampers.com</div>
+            <div class="logo-item">Blue Dart</div>
+            <div class="logo-item">Xpressbees</div>
+            <div class="logo-item">Delhivery</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section alt">
+      <div class="container section-inner contact-grid">
+        <div class="reveal-up">
+          <div class="section-header left">
+            <span class="eyebrow">Contact</span>
+            <h2>Let's talk operations, automation, or your next project.</h2>
+          </div>
+
+          <form class="contact-form" id="contactForm">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input id="name" type="text" placeholder="Your name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input id="email" type="email" placeholder="you@example.com" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Project / Message</label>
+              <textarea id="message" rows="4" placeholder="Tell me a bit about what you need..." required></textarea>
+            </div>
+            <button type="submit" class="btn primary full">Send Message</button>
+            <p class="form-note" id="formNote" role="status"></p>
+          </form>
+        </div>
+
+        <div class="contact-meta reveal-up" style="--d:1">
+          <h3>Connect</h3>
+          <ul>
+            <li><strong>LinkedIn</strong><a href="https://www.linkedin.com/in/amit-chouhan-a4835b313" target="_blank" rel="noopener">/amit-chouhan-a4835b313</a></li>
+            <li><strong>Email</strong><a href="mailto:amitchouhan9522@gmail.com">amitchouhan9522@gmail.com</a></li>
+            <li><strong>Phone</strong><a href="tel:+919589178203">+91 95891 78203</a></li>
+            <li><strong>Role</strong><span>Operations Manager, Giftsvilla Private Limited</span></li>
+            <li><strong>Location</strong><span>Indore, Madhya Pradesh, India</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Amit Chouhan. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#hero">Back to top</a>
+        <a href="https://www.linkedin.com/in/amit-chouhan-a4835b313" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Chat widget -->
+  <div id="chatbot" class="chatbot">
+    <button id="chatbotToggle" class="chatbot-toggle" aria-label="Open chat">💬</button>
+    <div class="chatbot-window">
+      <div class="chatbot-header">
+        <div>
+          <div class="chatbot-title">Ask about Amit</div>
+          <div class="chatbot-subtitle">Quick answers, straight from his profile</div>
+        </div>
+        <button id="chatbotClose" class="icon-btn" aria-label="Close chat">✕</button>
+      </div>
+      <div class="chatbot-messages" id="chatbotMessages">
+        <div class="msg bot">Hi! Ask me about Amit's experience, team size, order volume, or the sites he's built.</div>
+      </div>
+      <div class="chatbot-suggestions" id="chatbotSuggestions">
+        <button type="button">How many orders has he managed?</button>
+        <button type="button">What sites has he built?</button>
+        <button type="button">How big is his team?</button>
+      </div>
+      <form id="chatbotForm" class="chatbot-input-wrap">
+        <input id="chatbotInput" type="text" placeholder="Type your question..." autocomplete="off" />
+        <button type="submit" class="btn tiny">Send</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
